@@ -2,4 +2,6 @@ This assignment aims to help you practice Python basics including primitive type
 dictionaries, functions, modules, regular expressions, exception handling, command line arguments, and file processing. Your main task in this 
 assignment is to develop a simple eye-tracking data analyser for people with autism.
 
+This assignment made with team which is consist of 2 members.
+
 data files are asd.txt and control.txt
