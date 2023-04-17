@@ -1,7 +1,0 @@
-latte;50
-cappuccino;50
-americano;40
-expresso;35
-sansebastian;50
-mosaic;45
-carrot;45
