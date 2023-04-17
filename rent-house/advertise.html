@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="advertise.css" />
+	<script type="text/javascript" src="advertise.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Advertise Your Home</title>
+</head>
+<body>
+    <div class="topnav">
+		<label class="Logo">Cyprus Rent-House</label>
+    	<a href="logout.py"><span class="material-icons md-24 md-light">logout</span></a>
+    	<a href="history.py"><span class="material-icons md-24 md-light">history</span></a>
+    	<a href="advertise.html"><span class="material-icons md-24 md-light">add</span></a>
+		<a href="index.py"><span class="material-icons md-24 md-light">home</span></a>
+	</div>
+	<div class="container">
+		<h1>Advertise Your Home<br></h1>
+		<form class="AdvertiseForm" name="myForm" action="advertise.py" onsubmit="return validateForm()" method="post">
+  			<label for="street">Street:</label>
+  			<input type="text" id="street" name="street"><br>
+			<span class="error"><p id="street_error"></p></span>
+		  	<label for="noOfBedrooms">No of Bedrooms:</label>
+  			<input type="text" id="noOfBedrooms" name="noOfBedrooms"><br>
+			<span class="error"><p id="noOfBedrooms_error"></p></span>
+  			<label for="monthlyFee">Monthly Fee:</label>
+		  	<input type="text" id="monthlyFee" name="monthlyFee"><br>
+			<span class="error"><p id="monthlyFee_error"></p></span>
+			<label for="city">City:</label>
+		  	<select class="selectCity" id="city" name="city">
+				<option value="1">Lefkosa</option>
+				<option value="2">Girne</option>
+				<option value="3">Gazi Magusa</option>
+				<option value="4">Iskele</option>
+				<option value="5">Guzelyurt</option>
+				<option value="6">Lefke</option>
+			</select><br><br>
+		  	<input type="submit" value="Submit"><br><br>
+			<span class="success"><p id="success"></p></span>
+		</form>
+	</div>
+</body>
+</html>

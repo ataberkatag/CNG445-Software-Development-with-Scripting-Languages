@@ -1,0 +1,74 @@
+body{
+	background-image: url('https://i.postimg.cc/g0HJYR9x/wp9764023-login-page-wallpapers.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
+}
+p{
+	font-size: 15px;
+	color: red;
+	text-align: -moz-right;
+}
+h1{
+	font-size: 36px;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: pink;
+}
+label{
+	font-size: 18px;
+	color: pink;
+}
+input[type=button]{
+	font-size: 20px;
+	background-color: #2F4F4F;
+	color: white;
+}
+input[type=password]{
+	font-size: 18px;
+}
+input[type=text]{
+	font-size: 18px;
+}
+input[type=submit]{
+	font-size: 20px;
+	background-color: #2F4F4F;
+	color: white;
+}
+a:link{
+	color: lime;
+}
+a:visited{
+	color: cyan;
+}
+.container{
+	border-radius: 25px;
+    position: absolute; /*Can also be `fixed`*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+	text-align: center;
+	max-height: 700px;
+  	width: 400px;
+  	background-color: #483D8B;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+	/*background-color: #4169E1;*/
+}
+.loginForm{
+	padding-top: 50px;
+}
+/*Information gathered from: https://developers.google.com/fonts/docs/material_icons */
+/* Rules for sizing the icon. */
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-100 { font-size: 100px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }

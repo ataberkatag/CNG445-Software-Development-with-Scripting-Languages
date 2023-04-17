@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is Cyprus rent-house web application">
+	<meta name="author" content="Ahmet Kutay Ural">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" type="text/css" href="register.css">								<!-- Link to Css file -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">									
+			<!-- I used Icon in my div that's why i import google material icons library. Information gathered from:				http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/icons/default.asp.html  -->
+	<script type="text/javascript" src="register.js"></script>
+	<title>Register</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Register to Cyprus<br> Rent-House</h1>
+		<span class="material-icons md-100 md-light">person_add</span>
+		<form class="RegisterForm" name="myForm" action="register.py" onsubmit="return validateForm()" method="post">
+  			<label for="username">Username:</label>
+  			<input type="text" id="username" name="username"><br>
+			<span class="error"><p id="username_error"></p></span>
+  			<label for="password">Password:</label>
+		  	<input type="password" id="password" name="pwd" minlength="6"><br>
+			<span class="error"><p id="password_error"></p></span>
+		  	<label for="name">Full name:</label>
+  			<input type="text" id="name" name="name"><br>
+			<span class="error"><p id="name_error"></p></span>
+  			<label for="email">E-mail:</label>
+		  	<input type="text" id="email" name="email"><br>
+			<span class="error"><p id="email_error"></p></span>
+		  	<label for="phone">Phone Number:</label>
+		  	<input type="text" id="phone" name="phone"><br>
+			<span class="error"><p id="phone_error"></p></span>
+		  	<input type="submit" value="Register"><br><br>
+		</form>
+	</div>
+</body>
+</html>
